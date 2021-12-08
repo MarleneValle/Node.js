@@ -1,0 +1,20 @@
+HTTP requests 
+IP addresses are like addresses for computers which are connected to the internet and all computers connected to the internet have a unique IP address to identify, but we use domain names to mask the IP addresses numbers
+
+The communication between the server and the browser (client) is via HTTP constructor (Hyper-Text Transfer Protocol) which it is just a set of instructions which dictate how communication occurs.
+
+In nodeJS we write code to create a server to listen for requests coming in from the browser. This server lives on the backend of our website
+
+LOCALHOST is like a domain name in the web but it take os to a loopback IP address (127.0.0.1) that points directly back tou our own computer which is acting as a host for our webside
+
+PORT NUMBER are like doors into a computer that a certain software of server should communicate through to keep information separate from one another 
+
+
+STATUS CODE
+100 RANGE - Informational response
+200 RANGE - Success codes
+300 RANGE - Codes for redirects
+400 RANGE - Client error codes
+500 RANGE - Server error codes 
+
+USE EXPRESS package to handle all of our routes, requests and responses 
